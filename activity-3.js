@@ -8,6 +8,7 @@
 // Convert to arrow function:
 const add = (a, b) => a + b;
 console.log(add(6,2));
+
 // Problem 2
 // function multiply(x, y) {
 //     return x * y;

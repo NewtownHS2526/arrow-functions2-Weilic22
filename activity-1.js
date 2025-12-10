@@ -10,7 +10,6 @@
 const greet = () => "Hello, World!";
 console.log(greet());
 
-
 // Problem 2
 // function sayGoodbye() {
 //     console.log("Goodbye!");

@@ -63,7 +63,7 @@ console.log(calculateTotal(2,3,5,7,2,3,5));
 const filterEvenNumbers = (numbers) => {
     return numbers.filter((num) => num % 2 === 0)
 }
-console.log(filterEvenNumbers(9,1,2,3,4,5,6,7,8,10));
+console.log("Even numbers: " + filterEvenNumbers([9,1,2,3,4,5,6,7,8,10]));
 
 // Problem 5
 // function mapToSquares(arr) {
@@ -75,7 +75,7 @@ console.log(filterEvenNumbers(9,1,2,3,4,5,6,7,8,10));
 const mapToSquares = (arr) => {
     return arr.map((x) => x*x)
 }
-console.log(mapToSquares(2,4,6,8,10));
+console.log("Map to squares numbers: " + mapToSquares([2,4,6,8,10]));
 // Problem 6
 // function findLongestWord(words) {
 //     let longest = "";
@@ -96,7 +96,7 @@ const findLongestWord = (words) => {
     })
     return longest
 }
-console.log(findLongestWord("red", "blue", "green", "purple"))
+console.log(findLongestWord(["red", "blue", "green", "purple"]))
 // Problem 7
 // function sumArray(numbers) {
 //     return numbers.reduce(function(acc, num) {
@@ -107,6 +107,7 @@ console.log(findLongestWord("red", "blue", "green", "purple"))
 const sumArray = (numbers) => {
     return numbers.reduce((acc,num) => acc + num,0)
 }
+console.log(sumArray([1,2,3,4,5,6]))
 
 // Problem 8
 // function getInitials(firstName, lastName) {
@@ -124,7 +125,7 @@ console.log(getInitials("weili", "cao"))
 // }
 // Convert to arrow function:
 const checkPassword = password => password.length >= 8
-
+console.log(checkPassword("9iw92io2"))
 // Problem 10
 // function formatName(first, middle, last) {
 //     if (middle) {
